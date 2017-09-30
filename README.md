@@ -9,7 +9,7 @@ Google switched from using a cleartext "file_context" format to a binary format 
 
 Setup
 -----
-The following command can be used to install `sefcontext_parser`:
+The following commands can be used to install `sefcontext_parser`:
 
     git clone https://github.com/jakev/sefcontext-parser
     cd sefcontext-parser
@@ -17,7 +17,7 @@ The following command can be used to install `sefcontext_parser`:
 
 Usage
 -----
-There are two ways to use this project: by importing into your current project, or by running the `sefparse` utility from the command-line. Using `sefparse` is straightforward and can be used as follows:
+There are two ways to use this project: by importing it into your current project, or by running the `sefparse` utility from the command-line. Using `sefparse` is straightforward and can be used as follows:
 
     adb pull /file_contexts.bin
     sefparse file_contexts.bin
