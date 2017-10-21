@@ -24,9 +24,9 @@ There are two ways to use this project: by importing it into your current projec
 
 To integrate the module into an existing python project, you can use the library as follows:
 
-    from sefcontext_parser import SefContextParser
+    from sefcontext_parser import sefcontext_parser as sefparse
 
-    parser = SefContextParser("file_context.bin")
+    parser = sefparse.SefContextParser("file_context.bin")
     for entry in parser.process_file():
         print "Regex=%s, Context=%s" % (entry.regex, entry.context)
 
